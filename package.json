@@ -2,7 +2,7 @@
   "name": "markdown-viewer",
   "version": "3.10.4",
   "private": true,
-  "description": "Development and automated testing tools for Markdown Viewer.",
+  "description": "Development and automated testing tools for Markdown Viewer by Debugged Pro.",
   "engines": {
     "node": ">=22 <27"
   },

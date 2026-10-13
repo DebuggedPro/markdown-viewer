@@ -2,7 +2,7 @@
   "name": "markdown-viewer-desktop",
   "version": "3.10.4",
   "private": true,
-  "description": "A lightweight Neutralinojs desktop build for Markdown Viewer with live preview, diagrams, math, and PDF/HTML/PNG exports.",
+  "description": "A lightweight Neutralinojs desktop build for Markdown Viewer by Debugged Pro, with live preview, diagrams, math, and PDF/HTML/PNG exports.",
   "scripts": {
     "setup": "node setup-binaries.js",
     "postsetup": "node prepare.js",

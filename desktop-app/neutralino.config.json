@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
-  "applicationId": "com.markdownviewer.desktop",
+  "applicationId": "com.debuggedpro.markdownviewer",
   "version": "3.10.4",
   "applicationIcon": "resources/assets/icon.png",
   "defaultMode": "window",

@@ -16,7 +16,8 @@
     
 
     <title data-seo-field="document-title">Markdown Viewer - Online Markdown Editor with Live Preview</title>
-    <link href="/assets/icon.jpg" rel="icon" type="image/jpg">
+    <link href="/assets/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="/assets/icon.png" rel="icon" type="image/png" sizes="512x512">
     <!-- Updated libraries to latest versions with Subresource Integrity (SRI) -->
     <link rel="stylesheet" href="/libs/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/libs/github-markdown.css" integrity="sha384-iACWXAClUhXj3tp/AQeas7im7qS6k8zAMbCeLrK+mfQ0YUsh41TpB+OhLRqAX5N3" crossorigin="anonymous">
@@ -46,16 +47,13 @@
             <div class="container-fluid d-flex justify-content-between align-items-center header-container">
                 <!-- Left section: Application identity and GitHub -->
                 <div class="d-flex align-items-center header-left app-brand">
-                    <img class="app-brand-icon" src="assets/icon.jpg" width="32" height="32" alt="" aria-hidden="true" />
+                    <img class="app-brand-icon" src="assets/icon.png" width="32" height="32" alt="" aria-hidden="true" />
                     <div class="app-brand-copy">
                         <div class="app-brand-title-row">
                             <h1 class="h4 mb-0">Markdown Viewer<span class="visually-hidden"> - Online Markdown Editor with Live Preview</span></h1>
                         </div>
-                        <p class="app-brand-subtitle">Write. Preview. Share.</p>
+                        <p class="app-brand-subtitle" data-i18n-skip>by Debugged Pro</p>
                     </div>
-                    <a href="https://github.com/ThisIs-Developer/Markdown-Viewer/" class="github-link" title="View on GitHub" target="_blank" rel="noopener noreferrer" aria-label="View Markdown Viewer on GitHub">
-                        <i class="bi bi-github" aria-hidden="true"></i>
-                    </a>
                 </div>
 
                 <!-- Right section: Document and application toolbar -->
@@ -114,7 +112,7 @@
 
                     <span class="header-toolbar-divider" aria-hidden="true"></span>
 
-                    <a class="header-icon-command report-command" href="https://github.com/ThisIs-Developer/Markdown-Viewer/issues/new" target="_blank" rel="noopener noreferrer" title="Report an issue" aria-label="Report an issue">
+                    <a class="header-icon-command report-command" href="https://debugged-pro.com/contact" target="_blank" rel="noopener noreferrer" title="Contact Debugged Pro" aria-label="Contact Debugged Pro">
                         <i class="lucide lucide-bug" aria-hidden="true"></i>
                     </a>
                     <button id="header-about-button" class="header-icon-command" type="button" data-md-action="info" title="About Markdown Viewer" aria-label="About Markdown Viewer">
@@ -274,7 +272,7 @@
                                     <span id="mobile-live-share-participants" class="live-share-toolbar-participants mobile-live-share-participants" aria-label="Live Share participants" hidden></span>
                                 </button>
 
-                                <a id="mobile-report-button" class="mobile-menu-item mobile-menu-command report-command" href="https://github.com/ThisIs-Developer/Markdown-Viewer/issues/new" target="_blank" rel="noopener noreferrer" title="Report an issue">
+                                <a id="mobile-report-button" class="mobile-menu-item mobile-menu-command report-command" href="https://debugged-pro.com/contact" target="_blank" rel="noopener noreferrer" title="Contact Debugged Pro">
                                     <span class="mobile-menu-item-label"><i class="lucide lucide-bug" aria-hidden="true"></i><span>Report</span></span>
                                 </a>
 
@@ -1030,25 +1028,25 @@
             </div>
             <div class="modal-body about-modal-body">
               <section class="about-product" aria-label="Application information">
-                <img src="assets/icon.jpg" alt="Markdown Viewer logo" class="about-logo" width="64" height="64" />
+                <img src="assets/icon.png" alt="Debugged Pro logo" class="about-logo" width="64" height="64" />
                 <h2 class="about-title">Markdown Viewer</h2>
-                <p class="about-meta">Version <span id="about-version" data-i18n-skip></span><span aria-hidden="true"> &bull; </span>Open source</p>
+                <p class="about-meta" data-i18n-skip>Version <span id="about-version"></span><span aria-hidden="true"> &bull; </span>by Debugged Pro</p>
                 <p class="about-description">A browser-based Markdown editor, viewer, previewer, and reader.</p>
                 <div class="about-actions" aria-label="Project links">
-                  <a class="about-action" href="https://github.com/ThisIs-Developer/Markdown-Viewer" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github" aria-hidden="true"></i><span>GitHub Repository</span>
+                  <a class="about-action" href="https://debugged-pro.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-globe" aria-hidden="true"></i><span>Debugged Pro</span>
                   </a>
-                  <a class="about-action" href="https://github.com/ThisIs-Developer/Markdown-Viewer/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+                  <a class="about-action" href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener noreferrer">
                     <i class="lucide lucide-shield-check" aria-hidden="true"></i><span>Apache License 2.0</span>
                   </a>
                   <button class="about-action" id="about-release-notes" type="button">
                     <i class="lucide lucide-history" aria-hidden="true"></i><span>Show Release Notes</span>
                   </button>
-                  <a class="about-action" href="https://github.com/ThisIs-Developer/Markdown-Viewer/wiki/FAQ" target="_blank" rel="noopener noreferrer">
-                    <i class="lucide lucide-message-square-more" aria-hidden="true"></i><span>FAQ</span>
+                  <a class="about-action" href="https://debugged-pro.com/contact" target="_blank" rel="noopener noreferrer">
+                    <i class="lucide lucide-message-square-more" aria-hidden="true"></i><span>Contact</span>
                   </a>
                 </div>
-                <p class="about-support">Developed and maintained by <a href="https://github.com/ThisIs-Developer" target="_blank" rel="noopener noreferrer">ThisIs-Developer</a>.</p>
+                <p class="about-support" data-i18n-skip>Developed and maintained by <a href="https://debugged-pro.com/" target="_blank" rel="noopener noreferrer">Debugged Pro</a>.</p>
               </section>
             </div>
             <div class="reset-modal-actions">
@@ -2040,7 +2038,7 @@
     <textarea id="default-markdown" hidden aria-hidden="true">---
 title: Welcome to Markdown Viewer
 description: Browser-based Markdown editor and viewer with live preview, GFM, diagrams, maps, STL previews, ABC notation, sharing, and export support.
-author: ThisIs-Developer
+author: Debugged Pro
 tags: ["markdown", "live-preview", "gfm", "mermaid", "plantuml", "stl", "abc-notation", "open-source"]
 ---
 
@@ -2192,10 +2190,10 @@ Create bullet points:
 
 ### **Links and Images**
 
-Add a [link](https://github.com/ThisIs-Developer/Markdown-Viewer) to important resources.
+Add a [link](https://debugged-pro.com/) to important resources.
 
 Embed an image:
-<img alt="Markdown Logo" src="assets/icon.jpg" width="120" height="120">
+<img alt="Debugged Pro logo" src="assets/icon.png" width="120" height="120">
 
 ### **Blockquotes**
 

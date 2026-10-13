@@ -34,7 +34,7 @@ test('application header keeps its height while showing the compact product iden
   await expect(page.locator('.app-brand-icon')).toHaveAttribute('width', '32');
   await expect(page.locator('.app-brand-icon')).toHaveAttribute('height', '32');
   await expect(page.locator('.app-brand-title-row h1')).toContainText('Markdown Viewer');
-  await expect(page.locator('.app-brand-subtitle')).toHaveText('Write. Preview. Share.');
+  await expect(page.locator('.app-brand-subtitle')).toHaveText('by Debugged Pro');
 
   const geometry = await page.evaluate(() => ({
     headerHeight: document.querySelector('.app-header').getBoundingClientRect().height
@@ -67,7 +67,7 @@ test('shared application overlays use compact type, spacing, and surface styling
   await expect(page.locator('.about-description')).toHaveText('A browser-based Markdown editor, viewer, previewer, and reader.');
   await expect(page.locator('.about-actions')).toContainText('Apache License 2.0');
   await expect(page.locator('.about-actions')).toContainText('FAQ');
-  await expect(page.locator('.about-support')).toContainText('Developed and maintained by ThisIs-Developer.');
+  await expect(page.locator('.about-support')).toContainText('Developed and maintained by Debugged Pro.');
   await page.locator('#about-modal-close').click();
 
   await page.locator('.markdown-toolbar-group--advanced [data-md-action="alert"]').click();

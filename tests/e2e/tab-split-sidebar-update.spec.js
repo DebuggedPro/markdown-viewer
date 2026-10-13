@@ -498,7 +498,7 @@ test('format toolbar consolidates heading, case, alignment, and insert actions',
   await page.locator('[data-md-action="info"]').click();
   await expect(page.locator('#about-modal-title')).toHaveText('About Markdown Viewer');
   await expect(page.locator('#about-modal')).toContainText('Open source');
-  await expect(page.locator('#about-modal').getByRole('link', { name: 'GitHub Repository' })).toBeVisible();
+  await expect(page.locator('#about-modal').getByRole('link', { name: 'Debugged Pro' })).toBeVisible();
   await expect(page.locator('#about-modal')).not.toContainText('Clear local data');
   await expect(page.locator('#about-modal #private-mode-toggle')).toHaveCount(0);
   await page.locator('#about-modal-close').click();

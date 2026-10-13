@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="assets/icon.jpg" alt="Markdown Viewer logo" width="100" />
+  <img src="assets/icon.png" alt="Debugged Pro logo" width="100" />
 
   <h1>Markdown Viewer</h1>
 
-  **A local-first Markdown editor and viewer with live preview.**
+  **A local-first Markdown editor and viewer with live preview — by [Debugged Pro](https://debugged-pro.com/).**
 
   Open, write, organize, review, render, export, and optionally share Markdown in a browser, as a Progressive Web App (PWA), in Docker, or in the Neutralino desktop application.
 

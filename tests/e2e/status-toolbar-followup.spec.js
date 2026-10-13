@@ -165,7 +165,7 @@ test('about presents compact production information and project links', async ({
   await expect(about).toContainText('A browser-based Markdown editor, viewer, previewer, and reader.');
   await expect(page.locator('#about-version')).toHaveText(await appVersion());
   await expect(about).toContainText('Open source');
-  await expect(about.getByRole('link', { name: 'GitHub Repository' })).toHaveAttribute('href', 'https://github.com/ThisIs-Developer/Markdown-Viewer');
+  await expect(about.getByRole('link', { name: 'Debugged Pro' })).toHaveAttribute('href', 'https://debugged-pro.com/');
   await expect(about.getByRole('link', { name: 'Apache License 2.0' })).toHaveAttribute('href', /LICENSE$/);
   await expect(about.getByRole('button', { name: 'Show Release Notes' })).toBeVisible();
   await expect(about.getByRole('link', { name: 'FAQ' })).toHaveAttribute('href', /\/wiki\/FAQ$/);

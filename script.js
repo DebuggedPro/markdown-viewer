@@ -733,7 +733,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         return response.text();
       }).catch(function(error) {
         console.warn('Failed to load release notes:', error);
-        return '# Markdown Viewer ' + APP_VERSION + '\n\nThe release notes could not be loaded. Visit the [project releases](https://github.com/ThisIs-Developer/Markdown-Viewer/releases) for the latest changes.';
+        return '# Markdown Viewer ' + APP_VERSION + '\n\nThe release notes could not be loaded. Visit [Debugged Pro](https://debugged-pro.com/) for more information.';
       });
     }
     return releaseNotesContentPromise;

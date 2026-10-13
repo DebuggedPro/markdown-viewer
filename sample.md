@@ -1,7 +1,7 @@
 ---
 title: Welcome to Markdown Viewer
 description: A GitHub-style Markdown renderer with live preview, math, diagrams, and export support.
-author: ThisIs-Developer
+author: Debugged Pro
 tags: ["markdown", "preview", "mermaid", "latex", "open-source"]
 ---
 
@@ -150,10 +150,10 @@ Create bullet points:
 
 ### **Links and Images**
 
-Add a [link](https://github.com/ThisIs-Developer/Markdown-Viewer) to important resources.
+Add a [link](https://debugged-pro.com/) to important resources.
 
 Embed an image:
-![Markdown Logo](https://markdownviewer.pages.dev/assets/icon.jpg)
+![Debugged Pro logo](assets/icon.png)
 
 ### **Blockquotes**
 
