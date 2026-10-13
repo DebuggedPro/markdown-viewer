@@ -4,18 +4,20 @@ compatibility_date = "2025-04-30"
 
 [[kv_namespaces]]
 binding = "SHARE_KV"
-id = "c820d2705f5742858a27b91b88f544bd"
+id = "3485dbf125c443aca259017f5c5b4d00"
+preview_id = "f416a3a319524171ab775713ae7dafed"
 
-[[durable_objects.bindings]]
-name = "LIVE_ROOMS"
-class_name = "LiveRoom"
-script_name = "markdown-viewer-live-room"
+# Uncomment after deploying workers/live-room-worker.js:
+# [[durable_objects.bindings]]
+# name = "LIVE_ROOMS"
+# class_name = "LiveRoom"
+# script_name = "markdown-viewer-live-room"
 
 [[env.production.kv_namespaces]]
 binding = "SHARE_KV"
-id = "c820d2705f5742858a27b91b88f544bd"
+id = "3485dbf125c443aca259017f5c5b4d00"
 
-[[env.production.durable_objects.bindings]]
-name = "LIVE_ROOMS"
-class_name = "LiveRoom"
-script_name = "markdown-viewer-live-room"
+# [[env.production.durable_objects.bindings]]
+# name = "LIVE_ROOMS"
+# class_name = "LiveRoom"
+# script_name = "markdown-viewer-live-room"
