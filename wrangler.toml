@@ -7,17 +7,16 @@ binding = "SHARE_KV"
 id = "3485dbf125c443aca259017f5c5b4d00"
 preview_id = "f416a3a319524171ab775713ae7dafed"
 
-# Uncomment after deploying workers/live-room-worker.js:
-# [[durable_objects.bindings]]
-# name = "LIVE_ROOMS"
-# class_name = "LiveRoom"
-# script_name = "markdown-viewer-live-room"
+[[durable_objects.bindings]]
+name = "LIVE_ROOMS"
+class_name = "LiveRoom"
+script_name = "markdown-viewer-live-room"
 
 [[env.production.kv_namespaces]]
 binding = "SHARE_KV"
 id = "3485dbf125c443aca259017f5c5b4d00"
 
-# [[env.production.durable_objects.bindings]]
-# name = "LIVE_ROOMS"
-# class_name = "LiveRoom"
-# script_name = "markdown-viewer-live-room"
+[[env.production.durable_objects.bindings]]
+name = "LIVE_ROOMS"
+class_name = "LiveRoom"
+script_name = "markdown-viewer-live-room"
